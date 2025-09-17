@@ -24,6 +24,12 @@ Congratulations on generating your Wails3 application! This README will guide yo
 
 ## Getting Started
 
+### Prepare
+
+1. go 1.25+
+2. nodejs 20+
+3. pnpm
+
 ### Frontend
 
 #### Run Locally
@@ -31,7 +37,7 @@ Congratulations on generating your Wails3 application! This README will guide yo
 Clone the project
 
 ```bash
-  git clone https://github.com/satnaing/shadcn-admin.git
+  git clone https://github.com/lflxp/notebooks.git
 ```
 
 Go to the project directory
@@ -57,7 +63,7 @@ Start the server
 1. Navigate to your project directory in the terminal.
 
    ```
-   go install github.com/wailsapp/wails/v3/cmd/wails3@v3.0.0-alpha.25
+   go install github.com/wailsapp/wails/v3/cmd/wails3@latest
    ```
 
 2. To run your application in development mode, use the following command:
